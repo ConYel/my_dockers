@@ -75,5 +75,4 @@ ENV PATH="/root/.cargo/bin:${PATH}"
 # install fcat
 RUN cargo install fcat
 ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
-RUN chmod 700 STAR_sam_script.txt download_SRA.sh && export PATH=/root/miniconda/bin:$PATH
-ENV PATH="/root/miniconda/bin:${PATH}"
+
