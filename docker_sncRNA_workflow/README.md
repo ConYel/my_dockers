@@ -1,4 +1,4 @@
-## Docker container for the analysis of data from small non-coding RNA-sec
+## Docker container for the analysis of data from small non-coding RNA-seq
 
 > docker run --rm -v $(pwd):/home/0 -p 8787:8787 -e PASSWORD=12345 -e USER=$UID congelos/sncRNA_workflow
 
