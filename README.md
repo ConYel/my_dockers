@@ -9,6 +9,6 @@
 
 ### - proTRAC: [De novo prediction of genomic piRNA clusters](https://www.smallrnagroup.uni-mainz.de/index.html#Software)
 
-### - Bowtie-Bowtie2
+### - Bowtie-Bowtie2 [Aligners for "ultrafast and memory-efficient aligning sequencing reads to long reference sequences"](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
 
-### - sncRNA-workflow
+### - sncRNA-workflow One of the dockers used in [wind](https://github.com/ConYel/wind)
