@@ -1,7 +1,6 @@
-FROM bioconductor/bioconductor_docker:devel
+FROM bioconductor/bioconductor_docker:RELEASE_3_13
 
-RUN apt-get update
-RUN R -e 'BiocManager::install(ask = F)' && R -e 'BiocManager::install(c("magick", \
+RUN apt-get update && R -e 'BiocManager::install(ask = F)' && R -e 'BiocManager::install(c("magick", \
 "tidyverse", "vroom", "devtools", "wesanderson", "ggpmisc", "ggseqlogo", \
 "hexbin", "pheatmap", "RColorBrewer", "ComplexHeatmap", "circlize", "gtools", "Rsubread", \
 "NOISeq", "edgeR", "DESeq2", "derfinder", "derfinderPlot", "regionReport", \
