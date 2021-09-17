@@ -9,7 +9,8 @@ RUN R -e 'BiocManager::install(ask = F)' && R -e 'BiocManager::install(c("magick
 "BSgenome.Mmusculus.UCSC.mm10", "TxDb.Mmusculus.UCSC.mm10.knownGene",\
 "TxDb.Hsapiens.UCSC.hg38.knownGene", "BSgenome.Hsapiens.UCSC.hg38",\
 "kableExtra", "gridExtra", "clusterProfiler", "gProfileR", "statmod", \
-"ggbio", "vqv/ggbiplot", "thomasp85/patchwork","recount", "plyranges", \
+"ggbio", "fansi", "utf8", "Rcpp", "vqv/ggbiplot", "thomasp85/patchwork", \
+"recount", "plyranges", \
 "rbamtools", "annotatr", "tximport", "VennDiagram", "PerformanceAnalytics", \
 "GO.db", "corrplot", "jsonlite", "here", "rlist", \
 "msa", "DECIPHER", ask = F))' && R -e 'tinytex::install_tinytex()' \
