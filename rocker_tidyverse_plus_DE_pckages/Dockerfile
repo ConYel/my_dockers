@@ -12,5 +12,5 @@ RUN apt-get update && R -e 'BiocManager::install(ask = F)' && R -e 'BiocManager:
 "recount", "plyranges", \
 "rbamtools", "annotatr", "tximport", "VennDiagram", "PerformanceAnalytics", \
 "GO.db", "corrplot", "jsonlite", "here", "rlist", \
-"msa", "DECIPHER", ask = F))' && R -e 'tinytex::install_tinytex()' \
+"msa", "DECIPHER", "tidybulk", ask = F))' && R -e 'tinytex::install_tinytex()' \
 && R -e 'BiocManager::install(ask = F)'
