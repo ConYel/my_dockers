@@ -6,7 +6,7 @@ R -e 'BiocManager::install(c("magick", \
 "tidyverse", "vroom", "devtools", "wesanderson", "ggpmisc", "ggseqlogo", \
 "hexbin", "pheatmap", "RColorBrewer", "ComplexHeatmap", "circlize", "gtools", \
 "Rsubread", "ExpressionAtlas", "biomaRt", "AnnotationDbi", "EnsDb.Hsapiens.v86",\
-"tidybulk", "tidySummarizedExperiment" \
+"tidybulk", "tidySummarizedExperiment", \
 "NOISeq", "edgeR", "DESeq2", "derfinder", "derfinderPlot", "regionReport", \
 "EDASeq", "RUVSeq", "sva", "rafalib", "org.Hs.eg.db", "org.Mm.eg.db", \
 "BSgenome.Mmusculus.UCSC.mm10", "TxDb.Mmusculus.UCSC.mm10.knownGene",\
