@@ -12,3 +12,5 @@
 ### - Bowtie-Bowtie2 [Aligners for "ultrafast and memory-efficient aligning sequencing reads to long reference sequences"](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
 
 ### - sncRNA-workflow One of the dockers used in [wind](https://github.com/ConYel/wind)
+
+### - Tools for the analysis from COVID samples
